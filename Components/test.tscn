@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://pl2wyhsfcdwu"]
+
+[ext_resource type="Texture2D" uid="uid://bneaemn44uqx2" path="res://Assets/sprites/characters/player.png" id="1_1r0by"]
+[ext_resource type="Texture2D" uid="uid://hm41bhubljps" path="res://Assets/sprites/characters/slime.png" id="2_yy4kf"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(156, 244)
+texture = ExtResource("1_1r0by")
+hframes = 6
+vframes = 10
+frame = 32
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(98, 146)
+texture = ExtResource("2_yy4kf")
